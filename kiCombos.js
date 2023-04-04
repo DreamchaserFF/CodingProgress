@@ -1,21 +1,4 @@
 // Combo System in Killer Instinct
-// BASIC: 2 hits
-// TRIPLE: 3
-// QUAD: 4
-// SOLID: 5
-// HYPER: 6
-// BRUTAL: 7
-// MASTER: 8
-// BLASTER: 9
-// EXTREME: 10-11
-// AWESOME: 12-13
-// MONSTER: 14-15
-// INSANE: 16-17
-// BEASTLY: 18-20
-// KING: 21-23
-// CRAZY: 24-26
-// KILLER: 27-29
-// GODLIKE: 30+
 
 let hits = 29;
 
