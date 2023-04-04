@@ -71,5 +71,5 @@ else if(hits === 27 || hits === 28 || hits === 29){
     console.log("KILLER Combo!");
 }
 else if(hits >= 30){
-    console.log("KIIING Combo!");
+    console.log("GODLIKE COMBO!");
 }
