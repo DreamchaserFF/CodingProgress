@@ -1,6 +1,6 @@
 // Combo System in Killer Instinct
 
-let hits = 29;
+let hits = 25;
 
 if (hits < 2){
     console.log("Not a combo.");
@@ -29,28 +29,28 @@ else if(hits === 8){
 else if(hits === 9){
     console.log("Blaster Combo!");
 }
-else if(hits === 10 || hits === 11){
+else if(hits >= 10 && hits <= 11){
     console.log("Extreme Combo!");
 }
-else if(hits === 12 || hits === 13){
+else if(hits >= 12 && hits <= 13){
     console.log("Awesome Combo!");
 }
-else if(hits === 14 || hits === 15){
+else if(hits >= 14 && hits <= 15){
     console.log("MONSTER Combo!");
 }
-else if(hits === 16 || hits === 17){
+else if(hits >= 16 && hits <= 17){
     console.log("INSANE Combo!");
 }
-else if(hits === 18 || hits === 19 || hits === 20){
+else if(hits >= 18 && hits <= 20){
     console.log("BEASTLY Combo!");
 }
-else if(hits === 21 || hits === 22 || hits === 23){
+else if(hits >= 21 && hits <= 23){
     console.log("KIIING Combo!");
 }
-else if(hits === 24 || hits === 25 || hits === 26){
+else if(hits >= 24 && hits <= 26){
     console.log("CRAZY Combo!");
 }
-else if(hits === 27 || hits === 28 || hits === 29){
+else if(hits >= 27 && hits <= 29){
     console.log("KILLER Combo!");
 }
 else if(hits >= 30){
