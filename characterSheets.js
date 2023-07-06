@@ -1,7 +1,7 @@
 // Character data: .alias, .birthplace, .legacy: legacyName, legacyEffect, .objective, personality
 
 const ayla = {
-    fullName    : "Ayla Ashwood",
+    fullName    : "Astra Ashwood",
     ocupation   : "Guardian and protector of a community of ostracized mystics and their families.",
     alias       : "The Chimera",
     birthplace  : "Ashwood Forest",
