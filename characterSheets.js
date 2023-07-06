@@ -1,6 +1,6 @@
 // Character data: .alias, .birthplace, .legacy: legacyName, legacyEffect, .objective, personality
 
-const ayla = {
+const astra = {
     fullName    : "Astra Ashwood",
     ocupation   : "Guardian and protector of a community of ostracized mystics and their families.",
     alias       : "The Chimera",
@@ -9,7 +9,7 @@ const ayla = {
  brown eyes (red during legacy use) and has a fairly muscular figure.",
     legacy : { 
         legacyName  : "Shadows in the Night",
-        effect      : "Ayla is capable of using the habilities and changing her appearence to that of\
+        effect      : "Astra is capable of using the habilities and changing her appearence to that of\
  one of the thousands of creatures that live inside her soul.",
         sideEffect  : "Auditory hallucinations; risk of going berserk; requires special medicine to\
  maintain control of her own body."
