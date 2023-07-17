@@ -9,37 +9,69 @@
 
 
 const enemies = [
-    {
+{
     fullName    : "Astra Ashwood",
-    ocupation   : "Guardian and protector of a community of ostracized mystics and their families.",
+    ocupation   : "Bounty Hunter",
     alias       : "The Chimera",
     birthplace  : "Ashwood Forest",
     legacy      : "Shadows in the Night",
-
-    personality : "Cheerful, hopeful, kind, irreverent.",
+    legacyType  : "Combat",
+    personality : "Cheerful, hopeful, kind, irreverent",
     dangerRating: 500
 },
 
 {
     fullName    : "Tristan Blake",
-    ocupation   : "Betrayer.",
+    ocupation   : "Wanted Fugitive",
     alias       : "The Exiled",
     birthplace  : "Atrozzia",
     legacy      : "Redemption",
-    personality : "Quiet, gloomy, humble, tries to appear happy at all times.",
+    legacyType  : "Combat",
+    personality : "Quiet, gloomy, humble, tries to appear happy at all times",
     dangerRating: 600
 },
 
 {
     fullName    : "Aria Garland I",
-    ocupation   : "Queen of Thargein.",
+    ocupation   : "Queen of Thargein",
     alias       : "The Silver Light of Thargein",
     birthplace  : "Thargein",
-    legacy      : "None.",
-    personality : "Serious, stern, kind-hearted, respectiful, proud.",
+    legacy      : "None",
+    legacyType  : "None",
+    personality : "Serious, stern, kind-hearted, respectiful, proud",
+    dangerRating: 200
+},
+{
+    fullName    : "Lumine Bellund",
+    ocupation   : "Nun of the Solar Order",
+    alias       : "The Bright Child",
+    birthplace  : "Thargein",
+    legacy      : "Seed of Life",
+    legacyType  : "Healing",
+    personality : "Cheerful, hopeful, kind, religious",
     dangerRating: 100
+},
+
+{
+    fullName    : "Ciel Dominique",
+    ocupation   : "Higher Vampire",
+    alias       : "The Fallen One",
+    birthplace  : "Solastra",
+    legacy      : "Moonlit Performance",
+    legacyType  : "Control",
+    personality : "Sad, reserved, introverted",
+    dangerRating: 600
 }
 ];
 
 const threats = enemies.filter(e => e.dangerRating > 400);
 
+const thargenians = enemies.filter(t => t.birthplace.includes("Thargein"));
+const enemyNation = enemies.filter(enemy => enemy.birthplace.includes("Solastra") ||
+enemy.birthplace.includes("Thargein"));
+
+const query = "Tristan";
+const results = enemies.filter(results =>{
+    const name = results.fullName.toLowerCase();
+    return name.includes(query.toLowerCase())
+})
